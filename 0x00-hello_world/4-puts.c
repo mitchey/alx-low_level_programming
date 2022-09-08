@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 /*
  * main -serves as the entry point for the program
