@@ -4,10 +4,11 @@
  */
 
 #include <unistd.h>
+
 /**
- * main - entry point of program
+ * main - Entry point of program
  *
- * Return: always 1
+ * Return: Always 1
  */
 
 int main(void)
