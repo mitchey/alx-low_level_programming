@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int numo;
+	int num;
 
 	for (num = 0; num < 10; num++)
 		printf("%d", num);
