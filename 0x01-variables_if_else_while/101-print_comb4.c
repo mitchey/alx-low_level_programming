@@ -3,7 +3,7 @@
 /**
  * main - prints 3 combination of numbers
  *
- * Returns: always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -16,14 +16,17 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				putchar(c);
-				putchar(i);
-				putchar(k);
-
-				if (c != '7')
+				if (c < i && i < k)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(c);
+					putchar(i);
+					putchar(k);
+
+					if (c != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
