@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - print_alphabet
  *
  * Return: always 0
  */
@@ -10,7 +10,7 @@ void print_alphabet(void)
 {
 	char c = 'a';
 
-	while(c <= 'z')
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
