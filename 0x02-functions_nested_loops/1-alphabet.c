@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * main - print_alphabet
+ * main - entry point
  *
+ * print_alphabet - print alphabets
+ * 
  * Return: always 0
  */
 
