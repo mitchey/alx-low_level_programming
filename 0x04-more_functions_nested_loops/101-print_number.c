@@ -32,5 +32,4 @@ void print_number(int n)
 	{
 		_putchar(((i / count) % 10) + 48);
 	}
-}
-				
+}		
