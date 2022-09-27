@@ -12,8 +12,10 @@ unsigned int _strspn(char *s, char *accept)
 	int i, j;
 	int count = 0;
 	char *str1, *str2;
+
 	str1 = s;
 	str2 = accept;
+
 	i = 0;
 
 	while (str1[i] != '\0') /*Declaring WHILE*/
@@ -28,15 +30,15 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 
-			j++;
+			j++;  /*add j+1*/
 		}
 
-		if (s[i] != accept[j])
+		if (s[i] != accept[j]) /*if aren't equal*/
 		{
 			break;
 		}
 
-		i++;
+		i++; /*add x+1*/
 	}
-	return (count);
+	return (count); /*return the value of count*/
 }
