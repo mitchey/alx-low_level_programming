@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (str1[i] != '\0') /*Declaring WHILE*/
 	{
-		J = 0;
+		j = 0;
 		while (str2[j] != '\0') /*Declaring WHILE *accept */
 		{
 			if (str2[j] == str1[i]) /*Evaluate condition*/
