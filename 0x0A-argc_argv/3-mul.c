@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
 		return (0);
 	}
-	
+
 	/*if two arguments were not received*/
 	printf("Error\n");
 
