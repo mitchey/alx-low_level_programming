@@ -1,1 +1,1 @@
-repository for all c programming task in alx SE program
+README file for tasks concerning porning pointers and arrays
