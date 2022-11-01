@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 	do {
 		if (from == -1 || r == -1)
 		{
-			dprint(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			free(buffer);
 			exit(98);
 		}
@@ -93,6 +93,7 @@ int main(int argc, char *argv[])
 
 		r = read(from, buffer, 1024);
 		to = open(argv[2], O_WRONLY | O_APPEND);
+
 	} while (r > 0);
 
 	free(buffer);
